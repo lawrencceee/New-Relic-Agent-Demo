@@ -62,3 +62,18 @@ Create a `.env` file in the root directory:
 ```bash
 NEW_RELIC_LICENSE_KEY=your_license_key_here
 NEW_RELIC_APP_NAME="FastAPI-Observability-Lab"
+
+---
+
+## 📊 Screenshot of New Relic Observability Platform Dashboard
+<img width="452" height="225" alt="image" src="https://github.com/user-attachments/assets/980b0a6d-0d7e-4b43-9c19-c145103e1347" />
+<img width="452" height="80" alt="image" src="https://github.com/user-attachments/assets/8f138673-8d65-4bd8-b716-d08489104beb" />
+* **Correlation of Load vs. Latency:** By viewing the **Locust-generated throughput** alongside **APM Response Times**, we can immediately see the exact point where increased user volume impacts the P95 latency.
+* **Infrastructure Stress Mapping:** This dashboard maps **Docker container CPU/Memory usage** directly against application transactions. This proves the instrumentation is successfully bridging the telemetry gap between the host and the containerized environment.
+* **Error Rate & Trace Visibility:** Any spike in 4xx/5xx errors is visible alongside **Distributed Tracing** data, allowing for a "Click-to-Code" workflow to find the root cause of a failure within seconds.
+* **Database Health:** The dashboard tracks **SQL query duration**, identifying if the SQLite persistence layer is becoming a bottleneck during peak traffic simulations.
+
+**Strategic Value:** This unified view reduces **MTTR (Mean Time to Resolution)** by eliminating "tool sprawl." A Solution Consultant can use this single screen to communicate technical health to Engineers and business value to Stakeholders simultaneously.
+
+
+
