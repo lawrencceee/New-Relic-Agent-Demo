@@ -66,15 +66,26 @@ NEW_RELIC_APP_NAME="FastAPI-Observability-Lab"
 
 ---
 
-## 📊 Screenshot of New Relic Observability Platform Dashboard
-<img width="452" height="225" alt="image" src="https://github.com/user-attachments/assets/980b0a6d-0d7e-4b43-9c19-c145103e1347" />
-<img width="452" height="80" alt="image" src="https://github.com/user-attachments/assets/8f138673-8d65-4bd8-b716-d08489104beb" />
-* **Correlation of Load vs. Latency:** By viewing the **Locust-generated throughput** alongside **APM Response Times**, we can immediately see the exact point where increased user volume impacts the P95 latency.
-* **Infrastructure Stress Mapping:** This dashboard maps **Docker container CPU/Memory usage** directly against application transactions. This proves the instrumentation is successfully bridging the telemetry gap between the host and the containerized environment.
-* **Error Rate & Trace Visibility:** Any spike in 4xx/5xx errors is visible alongside **Distributed Tracing** data, allowing for a "Click-to-Code" workflow to find the root cause of a failure within seconds.
-* **Database Health:** The dashboard tracks **SQL query duration**, identifying if the SQLite persistence layer is becoming a bottleneck during peak traffic simulations.
+## 📊 Single Pane of Glass – Unified Observability Dashboard
 
-**Strategic Value:** This unified view reduces **MTTR (Mean Time to Resolution)** by eliminating "tool sprawl." A Solution Consultant can use this single screen to communicate technical health to Engineers and business value to Stakeholders simultaneously.
+All application telemetry is consolidated into a single **New Relic Dashboard**, providing a real-time, end-to-end view of user traffic, application performance, and infrastructure health.
 
+![New Relic Unified Dashboard](<img width="1084" height="732" alt="image" src="https://github.com/user-attachments/assets/ccc6ae63-254f-49c2-9759-f1a568aba32a" />)
 
+---
 
+## 🔍 Key Insights Captured
+
+- **Load vs. Latency Correlation:** Visualizes Locust-generated throughput alongside APM response times to identify the exact point where increased traffic impacts P95 latency.
+
+- **Infrastructure Stress Mapping:** Maps Docker container CPU and memory usage directly to application transactions, bridging host-level and container-level telemetry.
+
+- **Error & Trace Visibility:** Displays 4xx/5xx error spikes with distributed tracing, enabling rapid root cause analysis through transaction-level insights.
+
+- **Database Health Monitoring:** Tracks SQL query duration to detect persistence-layer bottlenecks during peak load simulations.
+
+---
+
+## 🎯 Strategic Value
+
+This unified view reduces **MTTR (Mean Time to Resolution)** by eliminating tool sprawl, enabling clear communication with engineers while translating system performance into business impact for stakeholders.
