@@ -15,8 +15,7 @@ The system follows a containerized micro-service architecture consisting of four
 3.  **Persistence Layer (SQLite):** Local storage used to simulate database interactions and track SQL query performance/latency.
 4.  **Observability Layer (New Relic):** The central nervous system for telemetry ingestion, correlating APM traces with Host-level metrics.
 
-![Architecture Diagram](architecture.png) 
-*(Note: Ensure architecture.png is in your root folder for this to display)*
+<img width="1024" height="535" alt="image" src="https://github.com/user-attachments/assets/ec3c2620-1c25-4989-923e-37feec146823" />
 
 ---
 
