@@ -62,6 +62,7 @@ Create a `.env` file in the root directory:
 ```bash
 NEW_RELIC_LICENSE_KEY=your_license_key_here
 NEW_RELIC_APP_NAME="FastAPI-Observability-Lab"
+```
 
 ---
 
