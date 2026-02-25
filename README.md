@@ -15,7 +15,7 @@ The system follows a containerized micro-service architecture consisting of four
 3.  **Persistence Layer (SQLite):** Local storage used to simulate database interactions and track SQL query performance/latency.
 4.  **Observability Layer (New Relic):** The central nervous system for telemetry ingestion, correlating APM traces with Host-level metrics.
 
-<img width="1024" height="535" alt="image" src="https://github.com/user-attachments/assets/ec3c2620-1c25-4989-923e-37feec146823" />
+<img width="612" height="413" alt="Architecture Diagram" src="https://github.com/user-attachments/assets/93bdd257-a802-4751-a660-7a9cf43d603f" />
 
 ---
 
@@ -69,7 +69,7 @@ NEW_RELIC_APP_NAME="FastAPI-Observability-Lab"
 
 All application telemetry is consolidated into a single **New Relic Dashboard**, providing a real-time, end-to-end view of user traffic, application performance, and infrastructure health.
 
-<img width="1085" height="732" alt="Screenshot 2026-02-25 at 12 37 21 PM" src="https://github.com/user-attachments/assets/1a62c978-ef0d-4c73-8ea9-12c33cae4140" />
+<img width="1085" height="732" alt="New Relic Dashboard Screenshot" src="https://github.com/user-attachments/assets/1a62c978-ef0d-4c73-8ea9-12c33cae4140" />
 
 ---
 
