@@ -70,7 +70,7 @@ NEW_RELIC_APP_NAME="FastAPI-Observability-Lab"
 
 All application telemetry is consolidated into a single **New Relic Dashboard**, providing a real-time, end-to-end view of user traffic, application performance, and infrastructure health.
 
-<img width="1084" height="732" alt="Screenshot 2026-02-25 at 12 34 22 PM" src="https://github.com/user-attachments/assets/ccb7d010-990c-4803-a7d0-6ba98fe8c1cb" />
+<img width="1085" height="732" alt="Screenshot 2026-02-25 at 12 37 21 PM" src="https://github.com/user-attachments/assets/1a62c978-ef0d-4c73-8ea9-12c33cae4140" />
 
 ---
 
