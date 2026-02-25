@@ -1,4 +1,4 @@
-<img width="1084" height="732" alt="Screenshot 2026-02-25 at 12 34 22 PM" src="https://github.com/user-attachments/assets/e7fbaf1f-6d34-4be1-bf54-06cf2516219a" /># Full-Stack Observability Lab: Synthetic Traffic & Performance Monitoring
+# Full-Stack Observability Lab: Synthetic Traffic & Performance Monitoring
 
 ## 📋 Project Overview
 This project is a technical demonstration of a modern observability stack designed to simulate real-world e-commerce traffic and monitor system health. Using **New Relic**, this lab provides deep visibility into application performance (APM), infrastructure health, and user behavior.
