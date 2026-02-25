@@ -1,4 +1,4 @@
-# Full-Stack Observability Lab: Synthetic Traffic & Performance Monitoring
+<img width="1084" height="732" alt="Screenshot 2026-02-25 at 12 34 22 PM" src="https://github.com/user-attachments/assets/e7fbaf1f-6d34-4be1-bf54-06cf2516219a" /># Full-Stack Observability Lab: Synthetic Traffic & Performance Monitoring
 
 ## 📋 Project Overview
 This project is a technical demonstration of a modern observability stack designed to simulate real-world e-commerce traffic and monitor system health. Using **New Relic**, this lab provides deep visibility into application performance (APM), infrastructure health, and user behavior.
@@ -70,7 +70,8 @@ NEW_RELIC_APP_NAME="FastAPI-Observability-Lab"
 
 All application telemetry is consolidated into a single **New Relic Dashboard**, providing a real-time, end-to-end view of user traffic, application performance, and infrastructure health.
 
-![New Relic Unified Dashboard](<img width="1084" height="732" alt="image" src="https://github.com/user-attachments/assets/ccc6ae63-254f-49c2-9759-f1a568aba32a" />)
+![New Relic Unified Dashboard](<img width="1084" height="732" alt="Screenshot 2026-02-25 at 12 34 22 PM" src="https://github.com/user-attachments/assets/3b7fc967-f8a2-45a4-b2b2-e1732df2b32a" />
+)
 
 ---
 
